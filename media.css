@@ -1,0 +1,172 @@
+@media(max-width:425px){
+
+
+    .nav_links h4{
+        display: none;
+    }
+    .page1 .nav .nav_links i{
+        display: block;
+        font-size: 3.5vw;
+        /* position: absolute; */
+        /* z-index: 99999; */
+        color: #fff;
+        /* position: fixed; */
+    }
+
+    .hero{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .page1 .nav .nav_links{
+        justify-content: flex-end;
+        padding-right: 1vw;
+        /* transition: all 0.5s ease-in-out; */
+    }
+
+    .hero .hero_left{
+        width: 100%;
+        padding-bottom: 10vw;
+        /* background-color: yellow; */
+    }
+    .hero .hero_left h1{
+        font-size: 10vw;
+    }
+    .hero .hero_left h3{
+        font-size: 4vw;
+    }
+    .hero .hero_left p{
+        font-size: 2.5vw;
+        letter-spacing: 0.3vw;
+    }
+    .hero .hero_left .hero_leftc{
+        gap: 2vw;
+    }
+    .hero_left button{
+        font-size: 3vw !important;
+        /* margin-top: 5vw; */
+
+    }
+    .hero .hero_right{
+        width: 100%;
+    }
+    .hero .hero_right img{
+        height: 60vw;
+    }
+    .page2 .move_text{
+        height: 30%;
+    }
+    .illus{
+        flex-direction: column;
+        height: 70%;
+        gap: 2vw;
+        /* background-color: yellow; */
+        /* flex-wrap: wrap; */
+        /* overflow: hidden; */
+
+    }
+    .illus h2{
+        font-size: 5vw;
+    }
+    .illus h6{
+        font-size: 3.5vw;
+        letter-spacing: 0.3vw;
+    }
+    .page2 .illus img{
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .page3{
+        padding-top: 10vw !important;
+    }
+    .page3 span{
+      
+        font-size: 3.5vw !important;
+       
+    }
+    .page4{
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+    }
+    .page4_h1{
+        gap: 15vw;
+    }
+.cursor.active2{
+    width: 30vw;
+    height: 30vw;
+}
+.cursor.active3{
+    width: 30vw;
+    height: 30vw;
+}
+.cursor.active4{
+    width: 30vw;
+    height: 30vw;
+}
+.cursor.active5{
+    width: 30vw;
+    height: 30vw;
+}
+.page4 h1 span{
+    font-size: 3vw;
+}
+.page5 .text{
+    /* background-color: yellow; */
+    padding-bottom: 5vw;
+    width: 60%;
+}
+.page5 .text h4{
+    font-size: 3.5vw;
+    letter-spacing: 0.2vw;
+  
+  }
+  .page5_top{
+    padding-bottom: 5vw;
+    margin-bottom: 5vw;
+  }
+  .page5 .text p{
+    font-size: 3vw;
+  }
+  .page5 .text h6{
+    font-size: 1.5vw;
+  }
+  .swiper-slide{
+    flex-direction: column;
+  }
+  .swiper-slide img{
+    width: 25vw;
+    height: 25vw;
+  }
+  .page5_bottom .container{
+    flex-direction: column;
+  }
+  .container .part1 img{
+    width: 20vw;
+  }
+  .container .part2 li{
+
+    font-size: 3vw;
+  }
+  .container .part3{
+    flex-direction: row;
+    gap: 5vw;
+  }
+  .container .part3 h2{
+    font-size: 4vw;
+  }
+  .container .part3 i{
+    font-size: 3vw;
+  }
+  .page5_bottom .container{
+    border-radius: 10vw;
+    height: 90%;
+  }
+  .page5_bottom h6{
+    padding-top: 5vw;
+    font-size: 2vw;
+    letter-spacing: 0.3vw;
+
+  }
+
+}
